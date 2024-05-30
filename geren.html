@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gerenciador de Tarefas</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="task-list">
+  <div class="task" onclick="showAttendees(this)">
+    <h2>Tarefa 1</h2>
+    <p>Descrição da Tarefa 1</p>
+    <div class="attendee-list" style="display: none;">
+      <h3>Lista de Participantes</h3>
+      <ul>
+        <li><input type="checkbox">Usuário 1</li>
+        <li><input type="checkbox">Usuário 2</li>
+        <li><input type="checkbox">Usuário 3</li>
+        <!-- Adicione mais usuários conforme necessário -->
+      </ul>
+    </div>
+  </div> 
+  <BR><BR> <div class="task" onclick="showAttendees(this)">
+    <h2>Refeição ao Ar Livre</h2>
+    <p>Leve os alimentos e utensílios necessários para um piquenique em um parque.</p>
+    <div class="attendee-list" style="display: none;">
+      <h3>Lista de Participantes</h3>
+      <ul>
+        <li><input type="checkbox">Usuário 1</li>
+        <li><input type="checkbox">Usuário 2</li>
+        <li><input type="checkbox">Usuário 3</li>
+        <!-- Adicione mais usuários conforme necessário -->
+      </ul>
+    </div>
+  </div>
+  <div class="task" onclick="showAttendees(this)">
+    <h2>Tarefas Domésticas</h2>
+    <p>Limpar a casa, lavar a louça, lavar roupa, etc.</p>
+    <div class="attendee-list" style="display: none;">
+      <h3>Lista de Participantes</h3>
+      <ul>
+        <li><input type="checkbox">Usuário 1</li>
+        <li><input type="checkbox">Usuário 2</li>
+        <li><input type="checkbox">Usuário 3</li>
+        <!-- Adicione mais usuários conforme necessário -->
+      </ul>
+    </div>
+  </div>
+  <div class="task" onclick="showAttendees(this)">
+    <h2>Atividades Físicas</h2>
+    <p>Realizar exercícios físicos, como corrida, caminhada, ou praticar esportes.</p>
+    <div class="attendee-list" style="display: none;">
+      <h3>Lista de Participantes</h3>
+      <ul>
+        <li><input type="checkbox">Usuário 1</li>
+        <li><input type="checkbox">Usuário 2</li>
+        <li><input type="checkbox">Usuário 3</li>
+        <!-- Adicione mais usuários conforme necessário -->
+      </ul>
+    </div>
+  </div>
+  <div class="task" onclick="showAttendees(this)">
+    <h2>Compras no Mercado</h2>
+    <p>Comprar alimentos e outros itens necessários no supermercado.</p>
+    <div class="attendee-list" style="display: none;">
+      <h3>Lista de Participantes</h3>
+      <ul>
+        <li><input type="checkbox">Usuário 1</li>
+        <li><input type="checkbox">Usuário 2</li>
+        <li><input type="checkbox">Usuário 3</li>
+        <!-- Adicione mais usuários conforme necessário -->
+      </ul>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
